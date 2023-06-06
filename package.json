@@ -19,6 +19,7 @@
     "url": "https://github.com/neptunian/react-photo-gallery/issues"
   },
   "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
     "prop-types": "~15.7.2",
     "resize-observer-polyfill": "^1.5.0"
   },
@@ -61,8 +62,8 @@
     "webpack-dev-server": "^3.1.14"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0"
+    "react": ">= 16",
+    "react-dom": ">= 16"
   },
   "scripts": {
     "build": "nps build",
